@@ -13,7 +13,6 @@ export default class AddRelationToCategoriesAndTransactions1592403669634
       new TableColumn({
         name: 'category_id',
         type: 'uuid',
-        isUnique: true,
         isNullable: true,
       }),
     );
